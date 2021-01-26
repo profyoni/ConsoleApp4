@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{F3C5DB68-B172-4D24-9114-19A797F09562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math.Test", "Math.Test\Math.Test.csproj", "{7AC4679E-B8AB-410B-89AC-536929D89DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\Math.csproj", "{A1F3CE52-B692-41DB-82CD-8633370FB89D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C5DB68-B172-4D24-9114-19A797F09562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C5DB68-B172-4D24-9114-19A797F09562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C5DB68-B172-4D24-9114-19A797F09562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C5DB68-B172-4D24-9114-19A797F09562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC4679E-B8AB-410B-89AC-536929D89DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC4679E-B8AB-410B-89AC-536929D89DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC4679E-B8AB-410B-89AC-536929D89DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC4679E-B8AB-410B-89AC-536929D89DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F3CE52-B692-41DB-82CD-8633370FB89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F3CE52-B692-41DB-82CD-8633370FB89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F3CE52-B692-41DB-82CD-8633370FB89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F3CE52-B692-41DB-82CD-8633370FB89D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C27ECAF-DA3E-4B01-9FA6-062C9FFBC23C}
+	EndGlobalSection
+EndGlobal
