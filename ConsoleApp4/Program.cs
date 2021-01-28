@@ -12,7 +12,7 @@ namespace ConsoleApp4 // package (internal access)
         {
             int num1 = Convert.ToInt32(Console.ReadLine());
             int num2 = Convert.ToInt32(Console.ReadLine());
-            int sum = MathLibrary.Calc.Add(num1, num2);
+            int sum = MathLibrary.Calc.Plus(num1, num2);
             Console.WriteLine("Hello World!" + sum);
         }
     }
