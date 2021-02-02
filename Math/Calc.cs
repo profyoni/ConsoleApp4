@@ -4,15 +4,32 @@ using Humanizer;
 
 namespace MathLibrary
 {
-    public enum Operation
+    // Java enum is a _class_ where all enumerated values are like static constant instance of that class
+    public enum Operation // is an int under the hood (int masquarding as something else..more readable and type safe)
     {
         Plus, Minus
     }
 
+    // Effective C#
+    enum Gender
+    {
+        Unknown = 0,
+        Male = 10 ,
+        Female = 20,
+        Androgynous = 15,
+    }
+
+    class Person
+    {
+        private Gender g;
+    }
+
     public class Calc
     {
+        private Operation op;
         public static int Plus(int a, int b)
         {
+            Operation op = (Operation) 1;
             return a + b;
         }
 
