@@ -31,7 +31,7 @@ namespace ConsoleApp4 // package (internal access)
 
             var d = 4.3;
             var TOLERANCE = 0.00001;
-            if (Math.Abs(d - 4.3) < TOLERANCE)
+            if (System.Math.Abs(d - 4.3) < TOLERANCE)
             {
 
             }
