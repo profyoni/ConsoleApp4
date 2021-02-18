@@ -82,7 +82,7 @@ namespace Math.Test
             f1_2.GetN().Should().Be(2);
             f1_2.GetD().Should().Be(3);
 
-            f1_2.n = 88;
+            //f1_2.n = 88;
 
             f2_3.GetN().Should().Be(2);
             f2_3.GetD().Should().Be(3);
