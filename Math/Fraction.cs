@@ -9,7 +9,7 @@ namespace Math
         // Property is a method disguised as a field/variable
         // Operator overloading: operator +-*/<< which disguises a method
        // many operators %<< >= ...should mimic the standard behavior
-        public int n, d;
+        private int n, d;
 
         public Fraction(int _n = 0, int _d = 1)
         {
